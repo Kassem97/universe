@@ -1,0 +1,161 @@
+/* Global Styles */
+html, body {
+    width: 100%;
+    height: 100%;
+    background: #ffffff; /* Sets the background color of the page */
+    margin: 0;
+    font-family: Verdana, Sans-Serif; /* Sets the default font for the page */
+}
+
+/* Image Styles */
+img {
+    display: block;
+    border: none; /* Removes borders from images */
+}
+
+/* Main Container */
+#main {
+    margin: 35px 0 0 35px;
+    width: 715px; /* Sets the width of the main content area */
+    position: relative;
+}
+
+/* Ball Image */
+#ball {
+    float: left;
+    margin-right: 35px; /* Adds space to the right of the ball image */
+}
+
+/* Navigation Menu */
+#nav {
+    float: left;
+}
+
+#nav ul, #nav li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* Removes default list styling */
+}
+
+#nav li {
+    display: inline; /* Displays list items horizontally */
+}
+
+#nav h1, #nav ul {
+    width: 420px; /* Sets the width for the navigation heading and list */
+}
+
+/* Link Styles */
+#nav a, a {
+    font-weight: bold; /* Makes all links bold */
+    text-decoration: none; /* Removes underline from links */
+    display: block;
+    padding-left: 15px;
+    background: transparent url(../graphics/blueball.gif) no-repeat top left; /* Adds a background image to links */
+    color: #005b99; /* Sets the link color */
+    margin: 5px 0 0 0;
+}
+
+/* Hover Effect for Links */
+a:hover {
+    color: #000; /* Changes link color on hover */
+}
+
+#nav a:hover, #nav .sel {
+    background-image: url(../graphics/smallball.gif); /* Changes background image on hover */
+    color: #000;
+}
+
+/* Logo Styles */
+#logo {
+    float: right;
+}
+
+/* Content Area */
+#content {
+    clear: both;
+    padding: 40px 0 0 0; /* Adds top padding to the content area */
+}
+
+/* Content Block */
+.content {
+    clear: both;
+    padding: 0px 130px 20px 30px; /* Adds padding around the content */
+}
+
+.content img {
+    float: right;
+    margin: 0 0 10px 10px; /* Adds margin around images in the content */
+}
+
+/* Navigation Heading Styles */
+#nav h1 {
+    color: #5dbc56; /* Sets the color of the navigation heading */
+}
+
+/* Heading Styles */
+h1 {
+    margin: 0;
+    padding: 0 0 12px 0;
+    font-size: 16px; /* Sets the font size for all h1 elements */
+}
+
+/* Font Size for Various Elements */
+li, a, p, td, h2, h3 {
+    font-size: 11px; /* Sets a smaller font size for these elements */
+}
+
+p {
+    margin: 0;
+    padding: 0 0 6px 0; /* Adds bottom padding to paragraphs */
+    line-height: 15px; /* Sets the line height for paragraphs */
+}
+
+/* Table Styles */
+.table {
+    background: #000; /* Sets the background color of tables */
+    float: left;
+    background-repeat: no-repeat;
+    background-position: 7px 7px;
+    position: relative;
+    margin-bottom: 20px;
+    overflow: hidden; /* Ensures content doesn't overflow the table */
+}
+
+.table img {
+    border: solid 7px #000; /* Adds a thick black border to images in tables */
+}
+
+.table .topLeft, .table .topRight, .table .bottomLeft, .table .bottomRight {
+    position: absolute;
+    border: none; /* Removes borders from table corners */
+}
+
+/* Table Corner Positioning */
+.table .topRight {
+    right: 0px;
+    _right: -1px;
+}
+
+.table .bottomRight {
+    right: 0px;
+    _right: -1px;
+    bottom: 0px;
+}
+
+.table .bottomLeft {
+    left: 0px;
+    bottom: 0px;
+}
+
+/* List Styles */
+ul {
+    margin: 0 0 0 20px;
+    padding: 6px 0 12px 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    line-height: 15px; /* Sets the line height for list items */
+}
